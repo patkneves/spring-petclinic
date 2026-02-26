@@ -12,7 +12,6 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo "fully working for this week demo"
                 echo "Checking out source code..."
                 checkout scm
             }
